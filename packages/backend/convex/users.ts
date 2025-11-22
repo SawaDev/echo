@@ -18,8 +18,10 @@ export const add = mutation({
     if (identity === null) {
       throw new Error("Not authenticated");
     }
-
+    
     const orgId = identity.orgId as string;
+    
+    throw new Error("Tracking test")
 
     if (!orgId) {
       throw new Error("Missing organization");

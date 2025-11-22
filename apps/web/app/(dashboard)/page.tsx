@@ -25,7 +25,6 @@ export default function Page() {
         >
           Button
         </Button>
-        <h1 className="text-2xl font-bold">{JSON.stringify(users)}</h1>
       </div>
     </div>
   );
